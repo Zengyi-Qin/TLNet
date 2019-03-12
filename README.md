@@ -8,6 +8,16 @@ This repository contains an implementation of our [CVPR paper]. The detection pi
 
 #### [Detection Outputs on KITTI Validation Set](https://cloud.tsinghua.edu.cn/f/3ffac9edd66f4676a3d5/?dl=1)
 
+Please cite our paper if you find this repository helpful:
+```
+@article{qin2019tlnet, 
+  title={Triangulation Learning Network: from Monocular to Stereo 3D Object Detection}, 
+  author={Zengyi Qin and Jinglu Wang and Yan Lu},
+  journal={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2019}
+}
+```
+
 ### Introduction
 we study the problem of 3D object detection from stereo images, in which the key challenge is how to effectively utilize stereo information. Different from previous methods using pixel-level depth maps, we propose to employ 3D anchors to **explicitly construct geometric correspondences** between the regions of interest in stereo images, from which the deep neural network learns to **detect and triangulate** the targeted object in 3D space. We also present **a cost-efficient channel reweighting strategy** that enhances representational features and weakens noisy signals to facilitate the learning process. All of these are flexibly integrated into a baseline detector, achieving state-of-the-art performance in 3D object detection and localization on the challenging KITTI dataset.
 
