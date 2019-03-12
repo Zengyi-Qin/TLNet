@@ -1,4 +1,4 @@
-## TLNet: *from Monocular to Stereo 3D Object Detection*
+## Triangulation Learning Network: *from Monocular to Stereo 3D Object Detection*
 
 This repository contains an implementation of our [CVPR paper]. The detection pipeline is built on [AVOD](https://github.com/kujason/avod).
 
