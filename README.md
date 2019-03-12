@@ -2,8 +2,10 @@
 
 This repository contains an implementation of our [CVPR paper]. The detection pipeline is built on [AVOD](https://github.com/kujason/avod).
 
-### Video Demo
+### [Video Demo](https://cloud.tsinghua.edu.cn/lib/d8a4a77b-82cb-42a9-bcf0-e1d9999aeffc/file/video_demo_TLNet.mp4)
 [![Watch the video](network.png)](https://cloud.tsinghua.edu.cn/lib/d8a4a77b-82cb-42a9-bcf0-e1d9999aeffc/file/video_demo_TLNet.mp4)
+
+### [Detection Outputs on KITTI Validation Set](https://cloud.tsinghua.edu.cn/f/3ffac9edd66f4676a3d5/?dl=1)
 
 ### Introduction
 we study the problem of 3D object detection from stereo images, in which the key challenge is how to effectively utilize stereo information. Different from previous methods using pixel-level depth maps, we propose to employ 3D anchors to **explicitly construct geometric correspondences** between the regions of interest in stereo images, from which the deep neural network learns to **detect and triangulate** the targeted object in 3D space. We also present **a cost-efficient channel reweighting strategy** that enhances representational features and weakens noisy signals to facilitate the learning process. All of these are flexibly integrated into a baseline detector, achieving state-of-the-art performance in 3D object detection and localization on the challenging KITTI dataset.
