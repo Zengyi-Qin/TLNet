@@ -8,7 +8,7 @@ This repository contains an implementation of our [CVPR paper]. The detection pi
 
 #### [Detection Outputs on KITTI Validation Set](https://cloud.tsinghua.edu.cn/f/3ffac9edd66f4676a3d5/?dl=1)
 
-Please cite this paper if you find this repository helpful:
+Please cite this paper if you find the repository helpful:
 ```
 @article{qin2019tlnet, 
   title={Triangulation Learning Network: from Monocular to Stereo 3D Object Detection}, 
