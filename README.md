@@ -8,6 +8,11 @@ This repository contains an implementation of our [CVPR paper]. The detection pi
 
 #### [Detection Outputs on KITTI Validation Set](https://cloud.tsinghua.edu.cn/f/3ffac9edd66f4676a3d5/?dl=1)
 
+<br/>
+
+### Related Project
+[**MonoGRNet: A Geometric Reasoning Network for 3D Object Localization**](https://github.com/Zengyi-Qin/MonoGRNet)
+
 Please cite this paper if you find the repository helpful:
 ```
 @article{qin2019tlnet, 
