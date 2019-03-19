@@ -1,6 +1,6 @@
 ## Triangulation Learning Network: *from Monocular to Stereo 3D Object Detection*
 
-This repository contains an implementation of our [CVPR paper](https://cloud.tsinghua.edu.cn/f/f288147f957f4f8eac75/?dl=1). The detection pipeline is built on [AVOD](https://github.com/kujason/avod).
+The repository contains an implementation of this [CVPR paper](https://cloud.tsinghua.edu.cn/f/f288147f957f4f8eac75/?dl=1). The detection pipeline is built on [AVOD](https://github.com/kujason/avod).
 
 [![Watch the video](network.png)](https://cloud.tsinghua.edu.cn/lib/d8a4a77b-82cb-42a9-bcf0-e1d9999aeffc/file/video_demo_TLNet.mp4)
 
