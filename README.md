@@ -2,9 +2,9 @@
 
 The repository contains an implementation of this [CVPR paper](https://cloud.tsinghua.edu.cn/f/f288147f957f4f8eac75/?dl=1). The detection pipeline is built on [AVOD](https://github.com/kujason/avod).
 
-[![Watch the video](network.png)](https://cloud.tsinghua.edu.cn/lib/d8a4a77b-82cb-42a9-bcf0-e1d9999aeffc/file/video_demo_TLNet.mp4)
+[![Watch the video](network.png)](https://cloud.tsinghua.edu.cn/f/4f4584a05ba24ceab956/)
 
-#### [Video Demo](https://cloud.tsinghua.edu.cn/lib/d8a4a77b-82cb-42a9-bcf0-e1d9999aeffc/file/video_demo_TLNet.mp4)
+#### [Video Demo](https://cloud.tsinghua.edu.cn/f/4f4584a05ba24ceab956/)
 
 #### [Detection Outputs on KITTI Validation Set](https://cloud.tsinghua.edu.cn/f/3ffac9edd66f4676a3d5/?dl=1)
 
