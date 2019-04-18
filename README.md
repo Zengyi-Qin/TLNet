@@ -31,11 +31,11 @@ we study the problem of 3D object detection from stereo images, in which the key
 - Python 3.6
 - Tensorflow 1.3.0 
 
+### Setup
 Clone this repository
 ```bash
 git clone https://github.com/Zengyi-Qin/TLNet.git
 ```
-### Dataset
 Download the [Kitti Object Detection Dataset](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) ([image left](http://www.cvlibs.net/download.php?file=data_object_image_2.zip), [image right](http://www.cvlibs.net/download.php?file=data_object_image_3.zip), [calib](http://www.cvlibs.net/download.php?file=data_object_calib.zip) and [label](http://www.cvlibs.net/download.php?file=data_object_label_2.zip)) and place it into your home folder `~/Kitti/object`. Also download the `train.txt`, `val.txt`, `trainval.txt`, `planes` and `score` from [here](https://cloud.tsinghua.edu.cn/f/af6ca62301df4f14a6e4/?dl=1). The folder `planes` contains the ground planes parameters and `score` is the ground truth 2D objectness confidence maps. The data folder should be in the following format:
 ```
 Kitti
@@ -53,7 +53,6 @@ Kitti
         val.txt
 ```
 
-### Setup
 Add `tlnet` to your PYTHONPATH:
 ```bash
 export PYTHONPATH=$PYTHONPATH:'path/to/tlnet'
