@@ -241,10 +241,6 @@ class Evaluator:
 
                 pred_score_2d_np = self._sess.run(tf.get_collection('pred_score_2d'), 
                                             feed_dict=feed_dict)
-                save_path = os.path.join('/home/mcg', sample_name + '.npy')
-                with open(save_path, 'wb') as file:
-                    np.save(file, np.reshape(pred_score_2d_np, (12, 39, 2)))
-                    file.close()
 
 
                 rpn_objectness_loss = eval_losses[RpnModel.LOSS_RPN_OBJECTNESS]
