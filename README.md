@@ -1,12 +1,10 @@
 ## Triangulation Learning Network: *from Monocular to Stereo 3D Object Detection*
 
-The repository contains an implementation of this [CVPR paper](https://arxiv.org/abs/1906.01193). The detection pipeline is built on [AVOD](https://github.com/kujason/avod).
-
 [![Watch the video](network.png)](https://cloud.tsinghua.edu.cn/f/4f4584a05ba24ceab956/)
 
-#### [Video Demo](https://cloud.tsinghua.edu.cn/f/4f4584a05ba24ceab956/)
+#### Created by [Zengyi Qin](http://www.qinzy.tech/), Jinglu Wang and Yan Lu. The repository contains an implementation of this [CVPR paper](https://arxiv.org/abs/1906.01193). The detection pipeline is modified from [AVOD](https://github.com/kujason/avod).
 
-#### [Detection Outputs on KITTI Validation Set](https://cloud.tsinghua.edu.cn/f/3ffac9edd66f4676a3d5/?dl=1)
+#### [Video Demo](https://cloud.tsinghua.edu.cn/f/4f4584a05ba24ceab956/) | [Detection Outputs on KITTI Validation Set](https://cloud.tsinghua.edu.cn/f/3ffac9edd66f4676a3d5/?dl=1)
 
 <br/>
 
